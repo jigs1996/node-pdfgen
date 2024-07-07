@@ -2,7 +2,7 @@
 
   Convert web pages and HTML content into polished PDF documents with `@jigs1996/node-pdfgen`. This versatile Node.js package supports seamless conversion from both public and private URLs ensuring rendering of content, including emojis and images. Customize headers, footers, and even add watermarks for branding—all with intuitive options for dynamic page sizing. Simplify your PDF generation process with `@jigs1996/node-pdfgen` and empower your applications to deliver beautifully formatted documents effortlessly.
 
-  ![Node Current](https://img.shields.io/node/v/@jigs1996/node-pdfgen) ![NPM Version](https://img.shields.io/npm/v/@jigs1996/node-pdfgen) [![Known Vulnerabilities](https://snyk.io/test/github/@jigs1996/node-pdfgen/badge.svg)](https://snyk.io/test/github/@jigs1996/node-pdfgen/badge.svg) ![NPM License](https://img.shields.io/npm/l/@jigs1996/node-pdfgen) ![NPM Downloads](https://img.shields.io/npm/dm/@jigs1996/node-pdfgen)
+  ![Node Current](https://img.shields.io/node/v/%2540jigs1996%252Fnode-pdfgen) ![NPM Version](https://img.shields.io/npm/v/%2540jigs1996%252Fnode-pdfgen) ![NPM License](https://img.shields.io/npm/l/%2540jigs1996%252Fnode-pdfgen)
 
 ## Versions
 

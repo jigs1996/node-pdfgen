@@ -42,5 +42,9 @@
   ],
   "dependencies": {
     "puppeteer": "^22.12.1"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=9.0.0"
   }
 }
