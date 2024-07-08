@@ -9,6 +9,6 @@
   "author": "Jignesh Sanghani",
   "license": "MIT",
   "dependencies": {
-    "@jigs1996/node-pdfgen": "^1.0.1"
+    "@jigs1996/node-pdfgen": "^1.0.2"
   }
 }
