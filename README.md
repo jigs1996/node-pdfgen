@@ -10,6 +10,12 @@
   | -------- | :-------------------: |
   | >=20.0.0 |        v1.x.x         |
 
+## Installation
+
+  ```bash
+  npm install @jigs1996/node-pdfgen
+  ```
+
 ## Features
 
 - **Public/Private URL to PDF**: Convert web pages accessible via public or private URLs to PDF documents.
