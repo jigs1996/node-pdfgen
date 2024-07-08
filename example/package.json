@@ -1,0 +1,14 @@
+{
+  "name": "node-pdfgen-example",
+  "version": "1.0.0",
+  "description": "Examle code of @jigs1996/node-pdfgen",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Jignesh Sanghani",
+  "license": "MIT",
+  "dependencies": {
+    "@jigs1996/node-pdfgen": "^1.0.1"
+  }
+}

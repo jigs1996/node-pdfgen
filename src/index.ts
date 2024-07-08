@@ -121,31 +121,8 @@ function generate(
 
       setTimeout(async () => {
         const pdfBuffer = await page.pdf({
-          headerTemplate: `<style>
-                    @font-face {
-                      font-family: 'Poppins', sans-serif;
-                      src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap');
-                    }
-                    html {
-                      -webkit-print-color-adjust: exact;
-                      padding: 0!important;
-                      margin: 0!important;
-                      font-family: 'Poppins', sans-serif;
-                    }
-                    body {
-                      font-family: 'Poppins', sans-serif;
-                    }
-                    #header, #footer {
-                      padding: 0 !important;
-                    }
-                    </style>
-                    <div style="width: 100%; background-color: #f7f3ff; padding: 0px 20px; display: flex; align-items: center; gap: 12px; justify-content: space-between; color: #1d0067; height:70px;" class="header">
-                        <div style="display: flex; align-items: center; gap: 12px" >
-                          <h1 style="font-size: 24px; font-family: 'Poppins', sans-serif;">${headerTitle || ''}</h1>
-                        </div>
-                        <div style="font-size: 12px;"></div>
-                      </div>`,
-          footerTemplate: `<style>html { -webkit-print-color-adjust: exact; padding: 0!important; margin: 0!important; } #header, #footer { padding: 0 !important; }</style><div style="position:relative;width: 100%; background: #f7f3ff; padding: 0 20px 50px; display: flex; align-items: center; gap: 12px; justify-content: space-between; color: #1d0067; position: relative;" class="footer"><p style="max-width: 967px;  margin: 0 auto; text-align: center; font-size: 10px; line-height: 60px;" >${footerTitle || ''}</p></div>`,
+          headerTemplate: `<style>html { -webkit-print-color-adjust: exact; padding: 0!important; margin: 0!important; }</style><div style="-webkit-print-color-adjust: exact;width: 100%; background-color: #ffffff; padding: 0px 20px; display: flex; align-items: center; gap: 12px; justify-content: space-between; color: #00000; height:70px;font-size: 24px;" class="header"><p style="max-width: 967px;  margin: 0 auto; text-align: center; font-size: 20px; line-height: 60px;">${headerTitle || ''}</p></div>`,
+          footerTemplate: `<style>html { -webkit-print-color-adjust: exact; padding: 0!important; margin: 0!important; }</style><div style="position:relative;width: 100%; background: #ffffff; padding: 0 20px; display: flex; align-items: center; gap: 12px; justify-content: space-between; color: #00000; position: relative;" class="footer"><p style="max-width: 967px;  margin: 0 auto; text-align: center; font-size: 16px; line-height: 60px;" >${footerTitle || ''}</p></div>`,
           ...pdfOptions,
           width: pdfWidth,
           height: pdfHeight,

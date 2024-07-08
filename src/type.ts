@@ -2,7 +2,7 @@ export interface ICookie {
   name: string
   value: string
   domain?: string
-  expires?: string
+  expires?: number
   httpOnly?: boolean
   partitionKey?: string
   path?: string
