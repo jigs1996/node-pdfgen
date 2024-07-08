@@ -1,6 +1,6 @@
 {
   "name": "@jigs1996/node-pdfgen",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Easily convert web pages and HTML content into polished PDFs with @jigs1996/node-pdfgen, supporting public/private URLs and local HTML files with customizable headers, footers, watermarks, dynamic page sizes, and robust error handling.",
   "main": "dist/index.js",
   "module": "dist/index.js",
