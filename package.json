@@ -41,7 +41,7 @@
     "dist"
   ],
   "dependencies": {
-    "puppeteer": "^22.12.1"
+    "puppeteer": "^22.13.0"
   },
   "engines": {
     "node": ">=20.0.0",
